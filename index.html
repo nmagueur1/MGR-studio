@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MGR Studio - Nathan Magueur · Photographe Football</title>
+  <meta name="description" content="Photographe sportif spécialisé football. Je capture l'intensité du jeu et l'émotion des joueurs pour les clubs professionnels. Collaborations Olympique de Marseille, clubs pros et joueurs." />
+  <meta name="author" content="Nathan Magueur - MGR Studio" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="MGR Studio - Nathan Magueur · Photographe Football" />
+  <meta property="og:description" content="Je capture les émotions des joueurs et l'intensité du jeu." />
+  <meta property="og:image" content="assets/photos/hero/hero-01.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== NAV ==================== -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__logo" aria-label="MGR Studio – accueil">
+      <span class="nav__logo-mark">MGR</span>
+      <span class="nav__logo-sub">studio</span>
+    </a>
+    <nav class="nav__menu" aria-label="Navigation principale">
+      <a href="#about" class="nav__link">À propos</a>
+      <a href="#portfolio" class="nav__link">Portfolio</a>
+      <a href="#services" class="nav__link">Services</a>
+      <a href="#cv" class="nav__link">Parcours</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+    <a href="#contact" class="nav__cta">Collaborer</a>
+    <button class="nav__burger" id="navBurger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#about" class="mobile-menu__link">À propos</a>
+    <a href="#portfolio" class="mobile-menu__link">Portfolio</a>
+    <a href="#services" class="mobile-menu__link">Services</a>
+    <a href="#cv" class="mobile-menu__link">Parcours</a>
+    <a href="#contact" class="mobile-menu__link">Contact</a>
+    <a href="#contact" class="mobile-menu__cta">Collaborer</a>
+  </div>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero__slides">
+      <div class="hero__slide is-active" style="background-image:url('assets/photos/hero/hero-06.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/photos/hero/hero-05.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/photos/hero/hero-01.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/photos/hero/hero-04.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/photos/hero/hero-03.jpg')"></div>
+    </div>
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <div class="hero__eyebrow">
+        <span class="hero__pulse"></span>
+        Photographe sportif · Football
+      </div>
+      <h1 class="hero__title">
+        Je capture les <em>émotions</em><br />des joueurs et <em>l'intensité</em> du jeu.
+      </h1>
+      <p class="hero__lede">
+        Photographies pour clubs professionnels, joueurs et médias.<br />
+        Du terrain au vestiaire - du contenu prêt à publier.
+      </p>
+      <div class="hero__cta-row">
+        <a href="#portfolio" class="btn btn--primary">Voir le portfolio</a>
+        <a href="#contact" class="btn btn--ghost">Disponible pour collaborations</a>
+      </div>
+    </div>
+
+    <div class="hero__meta">
+      <div class="hero__meta-item">
+        <span class="hero__meta-num">2<span class="hero__meta-unit">ans</span></span>
+        <span class="hero__meta-lbl">en club National 3</span>
+      </div>
+      <div class="hero__meta-divider"></div>
+      <div class="hero__meta-item">
+        <span class="hero__meta-num">8<span class="hero__meta-unit">+</span></span>
+        <span class="hero__meta-lbl">clubs pros photographiés</span>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" aria-label="Faire défiler">
+      <span class="hero__scroll-line"></span>
+      <span class="hero__scroll-text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ==================== ABOUT (intro) ==================== -->
+  <section class="about" id="about">
+    <div class="about__inner">
+      <div class="about__col about__col--text">
+        <span class="section-label">01 - Approche</span>
+        <h2 class="about__title">
+          Capturer le football comme il se vit.<br />
+          <em>Brut, rapide, vrai.</em>
+        </h2>
+        <p class="about__lede">
+          Je travaille pour des clubs et joueurs qui veulent une image à la hauteur de leur niveau.
+          Mon objectif : produire des photos qui transmettent l'intensité d'un match
+          et l'émotion d'un vestiaire - utilisables immédiatement en communication, presse et réseaux sociaux.
+        </p>
+
+        <div class="about__pillars">
+          <div class="about__pillar">
+            <span class="about__pillar-num">01</span>
+            <h3 class="about__pillar-title">Terrain</h3>
+            <p class="about__pillar-text">Action, duels, intensité - captés au plus près du jeu.</p>
+          </div>
+          <div class="about__pillar">
+            <span class="about__pillar-num">02</span>
+            <h3 class="about__pillar-title">Émotion</h3>
+            <p class="about__pillar-text">Célébrations, frustration, regards. Le football humain.</p>
+          </div>
+          <div class="about__pillar">
+            <span class="about__pillar-num">03</span>
+            <h3 class="about__pillar-title">Coulisses</h3>
+            <p class="about__pillar-text">Vestiaire, échauffement, banc - ce que le public ne voit pas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__col about__col--image">
+        <div class="about__image-wrap">
+          <img src="assets/photos/emotions/emotion-13.jpg" alt="Photographie d'émotion sur un match de football" loading="lazy" />
+          <div class="about__image-tag">Match · Émotion brute</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PORTFOLIO ==================== -->
+  <section class="portfolio" id="portfolio">
+
+    <div class="portfolio__intro">
+      <span class="section-label">02 - Portfolio</span>
+      <h2 class="portfolio__title">Le football, en quatre regards.</h2>
+      <p class="portfolio__lede">
+        Une sélection construite pour les clubs : action, émotion, hors-terrain et l'ensemble des clubs déjà photographiés.
+      </p>
+    </div>
+
+    <!-- BLOC 1 : MATCH / ACTION -->
+    <div class="portfolio-block" id="match">
+      <div class="portfolio-block__header">
+        <span class="portfolio-block__num">/01</span>
+        <h3 class="portfolio-block__title">Match · Action</h3>
+        <p class="portfolio-block__lede">L'intensité du jeu - duels, courses, instants décisifs.</p>
+      </div>
+
+      <div class="grid grid--match">
+        <figure class="grid__item" data-photo="assets/photos/match/match-15.jpg">
+          <img src="assets/photos/match/match-15.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match-21.jpg">
+          <img src="assets/photos/match/match-21.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match- 06.jpg">
+          <img src="assets/photos/match/match-06.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match-16.jpg">
+          <img src="assets/photos/match/match-16.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match-22.jpg">
+          <img src="assets/photos/match/match-22.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match-17.jpg">
+          <img src="assets/photos/match/match-17.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match-26.jpg">
+          <img src="assets/photos/match/match-26.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match-28.jpg">
+          <img src="assets/photos/match/match-28.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/match/match-19.jpg">
+          <img src="assets/photos/match/match-19.jpg" alt="Action de match" loading="lazy" />
+        </figure>
+      </div>
+
+      <button class="see-more" data-target="match" aria-expanded="false">
+        <span class="see-more__text">Voir plus</span>
+        <span class="see-more__count">29 photos</span>
+      </button>
+    </div>
+
+    <!-- BLOC 2 : EMOTIONS -->
+    <div class="portfolio-block" id="emotions">
+      <div class="portfolio-block__header">
+        <span class="portfolio-block__num">/02</span>
+        <h3 class="portfolio-block__title">Émotions</h3>
+        <p class="portfolio-block__lede">Célébrations, regards, tension - ce qui fait vibrer un public.</p>
+      </div>
+
+      <div class="grid grid--emotions">
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-08.jpg">
+          <img src="assets/photos/emotions/emotion-08.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-15.jpg">
+          <img src="assets/photos/emotions/emotion-15.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-12.jpg">
+          <img src="assets/photos/emotions/emotion-12.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-04.jpg">
+          <img src="assets/photos/emotions/emotion-04.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-07.jpg">
+          <img src="assets/photos/emotions/emotion-07.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-13.jpg">
+          <img src="assets/photos/emotions/emotion-13.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-16.jpg">
+          <img src="assets/photos/emotions/emotion-16.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-10.jpg">
+          <img src="assets/photos/emotions/emotion-10.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/emotions/emotion-17.jpg">
+          <img src="assets/photos/emotions/emotion-17.jpg" alt="Émotion d'un joueur" loading="lazy" />
+        </figure>
+      </div>
+
+      <button class="see-more" data-target="emotions" aria-expanded="false">
+        <span class="see-more__text">Voir plus</span>
+        <span class="see-more__count">17 photos</span>
+      </button>
+    </div>
+
+    <!-- BLOC 3 : STORY / OFF-FIELD -->
+    <div class="portfolio-block" id="story">
+      <div class="portfolio-block__header">
+        <span class="portfolio-block__num">/03</span>
+        <h3 class="portfolio-block__title">Story · Off-field</h3>
+        <p class="portfolio-block__lede">Vestiaire, échauffement, banc, après-match - la matière brute du club.</p>
+      </div>
+
+      <div class="grid grid--story">
+        <figure class="grid__item" data-photo="assets/photos/story/story-12.jpg">
+          <img src="assets/photos/story/story-12.jpg" alt="Hors terrain - préparation" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-08.jpg">
+          <img src="assets/photos/story/story-08.jpg" alt="Hors terrain - vestiaire" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-04.jpg">
+          <img src="assets/photos/story/story-04.jpg" alt="Hors terrain - échauffement" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-13.jpg">
+          <img src="assets/photos/story/story-13.jpg" alt="Hors terrain - banc" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-09.jpg">
+          <img src="assets/photos/story/story-09.jpg" alt="Hors terrain" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-14.jpg">
+          <img src="assets/photos/story/story-14.jpg" alt="Hors terrain - après match" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-06.jpg">
+          <img src="assets/photos/story/story-06.jpg" alt="Hors terrain" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-11.jpg">
+          <img src="assets/photos/story/story-11.jpg" alt="Hors terrain" loading="lazy" />
+        </figure>
+        <figure class="grid__item" data-photo="assets/photos/story/story-02.jpg">
+          <img src="assets/photos/story/story-02.jpg" alt="Hors terrain" loading="lazy" />
+        </figure>
+      </div>
+
+      <button class="see-more" data-target="story" aria-expanded="false">
+        <span class="see-more__text">Voir plus</span>
+        <span class="see-more__count">14 photos</span>
+      </button>
+    </div>
+
+    <!-- BLOC 4 : LOGOS CLUBS -->
+    <div class="portfolio-block portfolio-block--clubs" id="clubs">
+      <div class="portfolio-block__header">
+        <span class="portfolio-block__num">/04</span>
+        <h3 class="portfolio-block__title">Clubs photographiés</h3>
+        <p class="portfolio-block__lede">Les clubs déjà couverts en match ou en reportage - du National 3 à la Ligue 1.</p>
+      </div>
+
+      <div class="logos-grid">
+        <div class="logos-grid__item" title="Olympique de Marseille">
+          <img src="assets/logos/Logo_Olympique_Marseille_-_2026.svg" alt="Olympique de Marseille" loading="lazy" />
+        </div>
+        <div class="logos-grid__item" title="Stade Brestois 29">
+          <img src="assets/logos/Logo_SB29_2010.svg" alt="Stade Brestois 29" loading="lazy" />
+        </div>
+        <div class="logos-grid__item" title="LOSC Lille">
+          <img src="assets/logos/Logo_LOSC_Lille_2018.svg" alt="LOSC Lille" loading="lazy" />
+        </div>
+        <div class="logos-grid__item" title="Toulouse FC">
+          <img src="assets/logos/Toulouse_FC_logo_2021.svg" alt="Toulouse FC" loading="lazy" />
+        </div>
+        <div class="logos-grid__item" title="Angers SCO">
+          <img src="assets/logos/Logo_Angers_SCO_2021.svg" alt="Angers SCO" loading="lazy" />
+        </div>
+        <div class="logos-grid__item" title="US Concarneau">
+          <img src="assets/logos/Logo_US_Concarneau.svg" alt="US Concarneau" loading="lazy" />
+        </div>
+        <div class="logos-grid__item" title="US Sassuolo">
+          <img src="assets/logos/Logo_US_Sassuolo_2024.svg" alt="US Sassuolo" loading="lazy" />
+        </div>
+        <div class="logos-grid__item" title="Stade Plabennécois">
+          <img src="assets/logos/Logo_Stade_Plabennécois_Football_-_2021.svg" alt="Stade Plabennécois Football" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section class="services" id="services">
+    <div class="services__inner">
+      <div class="services__head">
+        <span class="section-label">03 - Services</span>
+        <h2 class="services__title">Ce que je produis pour les clubs.</h2>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__num">01</div>
+          <h3 class="service-card__title">Couverture de match</h3>
+          <p class="service-card__text">Reportage complet sur 90 minutes : action, émotion, ambiance. Livraison rapide pour publication post-match.</p>
+          <ul class="service-card__list">
+            <li>Photos d'action haute résolution</li>
+            <li>Émotions joueurs et staff</li>
+            <li>Banc, vestiaire, après-match</li>
+            <li>Tri & retouche pro inclus</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num">02</div>
+          <h3 class="service-card__title">Contenu réseaux sociaux</h3>
+          <p class="service-card__text">Photos pensées pour Instagram, X et TikTok : formats verticaux, séries cohérentes, identité club respectée.</p>
+          <ul class="service-card__list">
+            <li>Formats 4:5 / 9:16 / 1:1 livrés</li>
+            <li>Story-ready & posts</li>
+            <li>Cohérence éditoriale match après match</li>
+            <li>Délai 24h post-match</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num">03</div>
+          <h3 class="service-card__title">Portraits joueurs</h3>
+          <p class="service-card__text">Sessions portraits - communication club, presse, réseaux sociaux, marques personnelles.</p>
+          <ul class="service-card__list">
+            <li>Studio ou centre d'entraînement</li>
+            <li>Direction artistique sur mesure</li>
+            <li>Retouche pro</li>
+            <li>Droits adaptés à l'usage</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__num">04</div>
+          <h3 class="service-card__title">Storytelling photo</h3>
+          <p class="service-card__text">Reportage long format : un joueur, une saison, un derby. Photo + récit pour différencier le club.</p>
+          <ul class="service-card__list">
+            <li>Reportages immersifs</li>
+            <li>Vestiaire, intimité, coulisses</li>
+            <li>Séries éditoriales</li>
+            <li>Compatible publication & médias</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PHOTOGRAPHE (À PROPOS DE MOI) ==================== -->
+  <section class="bio" id="bio">
+    <div class="bio__inner">
+      <div class="bio__image-col">
+        <div class="bio__image-frame">
+          <img src="assets/photos/me/me-01.jpg" alt="Nathan Magueur, photographe sportif" loading="lazy" />
+        </div>
+        <div class="bio__image-frame bio__image-frame--small">
+          <img src="assets/photos/me/me-02.jpg" alt="Nathan Magueur en reportage" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="bio__text-col">
+        <span class="section-label">04 - Le photographe</span>
+        <h2 class="bio__title">Nathan Magueur.<br/><em>Le football à hauteur de joueur.</em></h2>
+        <p class="bio__lede">
+          Photographe sportif basé en France, je travaille principalement le football.
+          Ma photographie est au service du club : produire de l'image qui parle vite,
+          fort, et qui ressemble à l'identité de la structure.
+        </p>
+
+        <div class="bio__timeline">
+          <div class="bio__step">
+            <span class="bio__step-mark"></span>
+            <div>
+              <h4 class="bio__step-title">2 ans en alternance - National 3</h4>
+              <p class="bio__step-text">Photographe attitré d'un club de N3. Couverture matches, contenu réseaux, médias presse. La rigueur d'un cycle complet de saison.</p>
+            </div>
+          </div>
+          <div class="bio__step">
+            <span class="bio__step-mark"></span>
+            <div>
+              <h4 class="bio__step-title">Olympique de Marseille</h4>
+              <p class="bio__step-text">Collaboration avec l'OM, environnement Ligue 1, exigence professionnelle, livrables médias.</p>
+            </div>
+          </div>
+          <div class="bio__step">
+            <span class="bio__step-mark"></span>
+            <div>
+              <h4 class="bio__step-title">Joueurs & clubs partenaires</h4>
+              <p class="bio__step-text">Portraits, contenus dédiés et shootings avec joueurs professionnels et clubs de différents niveaux (L1, L2, N1 à N3).</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn--primary btn--inline">Discuter d'un projet</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CV / PARCOURS ==================== -->
+  <section class="cv" id="cv">
+    <div class="cv__inner">
+      <div class="cv__head">
+        <span class="section-label">05 - Parcours</span>
+        <h2 class="cv__title">Le parcours,<br/><em>en clair.</em></h2>
+        <p class="cv__lede">
+          Expérience, formation, outils. Pour les clubs et structures qui veulent un aperçu rapide avant d'échanger.
+        </p>
+      </div>
+
+      <div class="cv__grid">
+
+        <!-- COL 1 : EXPÉRIENCE -->
+        <div class="cv__col">
+          <div class="cv__col-head">
+            <span class="cv__col-num">/01</span>
+            <h3 class="cv__col-title">Expérience</h3>
+          </div>
+
+          <div class="cv__list">
+            <article class="cv__item">
+              <span class="cv__item-date">2025 — Présent</span>
+              <h4 class="cv__item-title">Photographe freelance</h4>
+              <p class="cv__item-org">MGR Studio · Indépendant</p>
+              <p class="cv__item-desc">Reportages match, portraits et contenu réseaux pour clubs professionnels, joueurs et médias. Collaboration avec l'Olympique de Marseille et plusieurs clubs de L1 à N3.</p>
+            </article>
+
+            <article class="cv__item">
+              <span class="cv__item-date">2022 — 2025</span>
+              <h4 class="cv__item-title">Photographe attitré · Alternance</h4>
+              <p class="cv__item-org">Stade Plabennécois Football · National 3</p>
+              <p class="cv__item-desc">Couverture complète de saison : matches, communication réseaux sociaux, contenus presse et identité visuelle club. Trois saisons en environnement compétition.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- COL 2 : FORMATION -->
+        <div class="cv__col">
+          <div class="cv__col-head">
+            <span class="cv__col-num">/02</span>
+            <h3 class="cv__col-title">Formation</h3>
+          </div>
+
+          <div class="cv__list">
+            <article class="cv__item">
+              <span class="cv__item-date">2023 — 2025</span>
+              <h4 class="cv__item-title">BTS Communication</h4>
+              <p class="cv__item-org">Skilzh · Brest</p>
+              <p class="cv__item-desc">Stratégie de communication, identité de marque, production de contenu visuel et digital.</p>
+            </article>
+
+            <article class="cv__item">
+              <span class="cv__item-date">2020 — 2023</span>
+              <h4 class="cv__item-title">Bac Pro Métiers du Commerce et de la Vente</h4>
+              <p class="cv__item-org">Lycée Saint-Joseph · Landerneau</p>
+              <p class="cv__item-desc">Relation client, négociation, démarche commerciale — bases solides pour le travail avec clubs et partenaires.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- COL 3 : COMPÉTENCES + LANGUES -->
+        <div class="cv__col">
+          <div class="cv__col-head">
+            <span class="cv__col-num">/03</span>
+            <h3 class="cv__col-title">Outils &amp; langues</h3>
+          </div>
+
+          <div class="cv__skills">
+            <div class="cv__skills-block">
+              <span class="cv__skills-label">Matériel</span>
+              <ul class="cv__skills-list">
+                <li>Sony A7 III</li>
+                <li>Tamron 70-180 mm f/2.8</li>
+              </ul>
+            </div>
+
+            <div class="cv__skills-block">
+              <span class="cv__skills-label">Logiciels</span>
+              <ul class="cv__skills-list">
+                <li>Adobe Lightroom</li>
+                <li>Adobe Photoshop</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+
+            <div class="cv__skills-block">
+              <span class="cv__skills-label">Langues</span>
+              <ul class="cv__lang-list">
+                <li><span>Français</span><span class="cv__lang-level">Langue maternelle</span></li>
+                <li><span>Anglais</span><span class="cv__lang-level">Notions</span></li>
+                <li><span>Espagnol</span><span class="cv__lang-level">Scolaire</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="contact" id="contact">
+    <div class="contact__bg" style="background-image:url('assets/photos/hero/hero-02.jpg')"></div>
+    <div class="contact__overlay"></div>
+
+    <div class="contact__inner">
+      <div class="contact__head">
+        <span class="section-label section-label--light">06 - Contact</span>
+        <h2 class="contact__title">Un projet, un match,<br/><em>une saison à raconter ?</em></h2>
+        <p class="contact__lede">
+          Je suis disponible pour des collaborations avec clubs, joueurs, équipementiers et médias.<br/>
+          Devis sur mesure selon le brief.
+        </p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info">
+          <div class="contact__info-block">
+            <span class="contact__info-label">Email</span>
+            <a href="mailto:nmagueur1@gmail.com" class="contact__info-value">nmagueur1@gmail.com</a>
+          </div>
+          <div class="contact__info-block">
+            <span class="contact__info-label">Site</span>
+            <span class="contact__info-value">MGRstudio.fr</span>
+          </div>
+          <div class="contact__info-block">
+            <span class="contact__info-label">Disponibilité</span>
+            <span class="contact__info-value">France · Déplacements possibles</span>
+          </div>
+          <div class="contact__info-block">
+            <span class="contact__info-label">Type de mission</span>
+            <span class="contact__info-value">Match · Portrait · Reportage · Réseaux</span>
+          </div>
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label class="form-field">
+              <span class="form-label">Nom / Club</span>
+              <input type="text" name="name" required placeholder="Votre nom ou structure" />
+            </label>
+            <label class="form-field">
+              <span class="form-label">Email</span>
+              <input type="email" name="email" required placeholder="email@club.fr" />
+            </label>
+          </div>
+          <label class="form-field">
+            <span class="form-label">Type de projet</span>
+            <select name="type" required>
+              <option value="">Sélectionner -</option>
+              <option>Couverture de match</option>
+              <option>Contenu réseaux sociaux</option>
+              <option>Portraits joueurs</option>
+              <option>Reportage / Storytelling</option>
+              <option>Saison complète / Partenariat</option>
+              <option>Autre</option>
+            </select>
+          </label>
+          <label class="form-field">
+            <span class="form-label">Votre message</span>
+            <textarea name="message" rows="4" required placeholder="Date, lieu, brief, formats attendus…"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--full">Envoyer la demande</button>
+          <p class="form-disclaimer">Réponse sous 24h ouvrées. Brief confidentiel.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">MGR<sup>studio</sup></span>
+        <p class="footer__tagline">Photographe football - Nathan Magueur</p>
+      </div>
+      <nav class="footer__links" aria-label="Pied de page">
+        <a href="#about">À propos</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__legal">
+        <span>© <span id="year">2026</span> MGR Studio · Nathan Magueur</span>
+        <span>Tous droits réservés sur les images.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== LIGHTBOX ==================== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Fermer">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Précédent">‹</button>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Suivant">›</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+    <div class="lightbox__caption" id="lightboxCaption"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
